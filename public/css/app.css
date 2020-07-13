@@ -1,0 +1,65 @@
+/*VARIABLES*/
+:root {
+    --color-background-body-dark: #202020;
+    --color-background-card-body-dark: #343a40;
+    --color-background-card-header-dark: #292d30;
+    --color-text-dark: #c2c7d0;
+}
+
+body {
+    background-color: var(--color-background-body-dark);
+}
+
+.card {
+    min-width: 360px;
+    max-width: 600px;
+    width: 100%;
+    border: var(--color-background-card-body-dark);
+}
+
+.card-header,
+.card-footer {
+    background-color: var(--color-background-card-header-dark);
+    color: var(--color-text-dark);
+}
+
+.card-body {
+    background-color: var(--color-background-card-body-dark);
+}
+
+.conversation {
+    height: 500px;
+    color: #ffffff;
+    overflow: auto;
+}
+
+.user-baloon-container,
+.bot-baloon-container {
+    width: 100%;
+    display: flex;
+}
+
+.user-baloon-container {
+    justify-content: flex-end;
+}
+
+.bot-baloon-container {
+    justify-content: flex-start;
+}
+
+.user-baloon,
+.bot-baloon {
+    padding: 8px;
+    border: 0px solid grey;
+    width: fit-content;
+}
+
+.user-baloon {
+    border-radius: 5px 0px 5px 5px;
+    background-color: #075e54;
+}
+
+.bot-baloon {
+    border-radius: 0px 5px 5px 5px;
+    background-color: var(--color-background-card-header-dark);
+}
