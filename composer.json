@@ -10,7 +10,7 @@
     "license": "MIT",
     "type": "project",
     "require": {
-        "php": "7.2.0",
+        "php": "7.2.32",
         "botman/botman": "~2.0",
         "botman/driver-web": "^1.5",
         "botman/studio-addons": "~1.3",
